@@ -1,0 +1,15 @@
+pipeline{
+  agent any
+    stages{
+      stage('what up'){
+          steps{echo 'nothing' 
+    }
+    }
+      stage('next'){
+          steps{
+          echo 'loading'
+          }
+      }
+    }
+      
+    }
